@@ -170,9 +170,9 @@ strong {
 
 /* Imagem de perfil */
 .img-profile {
-    width: 0px; /* Defina um tamanho específico */
-    height: 0px; /* Mesma altura para manter o círculo perfeito */
-    border-radius: 0%; /* 50% garantirá o formato circular */
+    width: 500px; /* Defina um tamanho específico */
+    height: 500px; /* Mesma altura para manter o círculo perfeito */
+    border-radius: 50%; /* 50% garantirá o formato circular */
     object-fit: cover; /* Garante que a imagem preencha o círculo corretamente */
 }
 
@@ -228,8 +228,8 @@ strong {
 }
 
 .third-section > div img {
-    width: 250px;
-    border-radius: 10px;
+    width: 500px;
+    border-radius: 50px;
 }
 
 /* Texto na terceira seção */
@@ -260,7 +260,7 @@ strong {
 
 /* Sombra nas imagens */
 :is(.img-profile, .img-who-am-i) {
-    box-shadow: 1px 1px 1px 1px var(--cyan1);
+    box-shadow: 5px 5px 5px 5px var(--cyan1);
 }
 
 /* Estilo do rodapé */
