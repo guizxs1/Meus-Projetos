@@ -36,7 +36,7 @@ function showProjects(data) {
     div.classList.add("project-item"); // Classe para estilização
 
     const a = document.createElement("a");
-    a.href = repo["html_url"]; // Link para o repositório no GitHub
+    a.href = repo["https://github.com/guizxs1?tab=repositories"]; // Link para o repositório no GitHub
     a.target = "_blank";
     a.title = repo["description"] || "Repositório no GitHub";
     a.textContent = repo["name"];
